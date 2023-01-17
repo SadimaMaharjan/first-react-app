@@ -6,13 +6,17 @@ export default function Info() {
     <div className="head-container">
       <div className="top">
         <img src={photo} className="photo" />
-        <h1 class="full-name">Sadima Maharjan</h1>
+        <h1 className="full-name">Sadima Maharjan</h1>
         <h5>FrontEnd Developer</h5>
         <p>Websitelink</p>
       </div>
       <div className="bottom">
-        <button className="email">Email</button>
-        <button className="Linkedin">LinkedIn</button>
+        <a href="mailto:npsadimamaharjan@gmail.com" className="button-links">
+          <button className="email">Email</button>
+        </a>
+        <a href="https://www.linkedin.com/in/sadima-maharjan/">
+          <button className="Linkedin">LinkedIn</button>
+        </a>
       </div>
     </div>
   );

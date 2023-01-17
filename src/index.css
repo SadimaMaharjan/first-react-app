@@ -1,3 +1,104 @@
 body {
   margin: 0;
+  background-color: #23252c;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+.App {
+  background-color: #1a1b21;
+  width: 317px;
+  margin: 40px auto;
+}
+
+.head-container {
+  text-align: center;
+}
+
+.full-name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.job {
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #f3bf99;
+  margin: 10px 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #f5f5f5;
+}
+
+.bottom {
+  display: flex;
+  justify-content: start;
+  padding: 0 40px;
+}
+
+.button-links {
+  display: flex;
+  margin-right: auto;
+  justify-content: start;
+  text-decoration: none;
+}
+
+button {
+  width: 115px;
+  height: 34px;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.email {
+  margin-right: auto;
+  background: url(./components/Mail.png) no-repeat 20px center #fff;
+  padding: 0 0 0 15px;
+}
+
+.Linkedin {
+  background: url(./components/linkedin.png) no-repeat 20px center #5093e2;
+  padding: 0 0 0 28px;
+  color: #fff;
+}
+
+.About {
+  margin: 30px 0;
+  padding: 0 40px;
+}
+
+.interest {
+  padding: 0 40px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin: 0;
+}
+
+.About p,
+.interest p {
+  color: #dcdcdc;
+  line-height: 17px;
+}
+
+.social-links {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }

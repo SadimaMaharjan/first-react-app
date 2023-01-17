@@ -6,13 +6,13 @@ import github from "./GitHub Icon.png";
 export default function Footer() {
   return (
     <div className="social-links">
-      <a>
+      <a href="https://www.facebook.com/">
         <img src={facebook} className="facebook" />
       </a>
-      <a>
+      <a href="https://www.instagram.com/">
         <img src={instagram} className="instagram" />
       </a>
-      <a>
+      <a href="https://github.com/SadimaMaharjan/">
         <img src={github} className="github" />
       </a>
     </div>
